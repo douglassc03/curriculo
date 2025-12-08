@@ -6,13 +6,14 @@ import "./index.css";
 const experiences = [
   {
     role: "Project Manager Intern",
-    company: "Choice Technologies Holding SA",
+    company: "Choice Technologies Holding - SEW",
     date: "Jul 2024 — Present",
     location: "Rio de Janeiro, Brazil · Hybrid",
     points: [
-      "Manage and organize project tasks, schedules, and deadlines using Jira, Confluence, and Excel to ensure timely delivery and efficient workflow.",
-      "Communicate directly in English with clients and colleagues from international offices, facilitating clear understanding and collaboration across borders.",
-      "Assist in project documentation and progress tracking, helping maintain alignment between stakeholders and project teams.",
+      "Manage and organize tasks, schedules, and project deadlines using Jira, Confluence, Excel, and Microsoft Project, ensuring on-time delivery and an efficient workflow.",
+      "Communicate daily in English with international clients and internal stakeholders, supporting clear alignment and collaboration across teams",
+      "Create and maintain key project documentation, including materials related to Organizational Change Management (OCM), stakeholder mapping, training, and transformation initiatives.",
+      "Support schedule updates and progress tracking in alignment with PMO processes, ensuring communication between squads and stakeholders.",
     ],
   },
   {
@@ -51,18 +52,18 @@ export default function App() {
   return (
     <div>
       {/* NAV */}
-      <nav className="nav">
-        <div className="nav-inner">
-          <span className="brand">
-            Douglas Scherer <span className="dot">•</span> Portfolio
-          </span>
-          <div className="nav-links">
-            <a href="#exp">Experience</a>
-            <a href="#volunteering">Volunteering</a>
-            <a href="#contact">Contact</a>
-          </div>
-        </div>
-      </nav>
+  <nav className="nav">
+  <div className="nav-inner">
+    <span className="brand">Douglas Scherer</span>
+    <div className="nav-links">
+      <a href="#about">About Me</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
 
       {/* HERO */}
       <header className="hero">
@@ -77,8 +78,7 @@ export default function App() {
               Hello! <span className="gradient">Welcome!</span>
             </h1>
             <p className="subhead">
-              I’m Douglas Costa Beber Scherer — Product Management Intern & Computer Science Undergraduate at UFRRJ (Federal Rural University of Rio de Janeiro).
-              Focused on Project Management, Scrum and Agile methodologies.
+              I'm Douglas, Bachelor’s Degree candidate in Computer Science at UFRRJ, with strong communication in English and hands-on experience in PMO and Organizational Change Management (OCM). I provide support to international teams in timeline structuring, documentation development, and rigorous project progress monitoring, using tools such as Jira, Confluence, and Microsoft Project.
             </p>
             <div className="cta-row">
               <a className="btn primary" href="#exp">View Experience</a>
@@ -121,6 +121,62 @@ export default function App() {
         </div>
       </section>
 
+      {/* CERTIFICATES */}
+<section id="certificates" className="section">
+  <h2 className="section-title">Certifications</h2>
+  <div className="list">
+    {[
+      {
+        title: "Change Management",
+        org: "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul",
+        date: "2025",
+        details: [
+          "Value Proposition and VPD application",
+          "Stakeholder engagement and behavior change analysis",
+          "Readiness assessment and key performance tracking",
+          "Key Users and Focal Points enablement",
+          "Change communication and adoption deliverables",
+        ],
+      },
+      {
+        title: "SAP Service Cloud",
+        org: "SAP",
+        date: "2024",
+        details: [
+          "Service ticket management and SLA monitoring",
+          "Customer service data analysis and reporting",
+          "Workflow optimization for support operations",
+        ],
+      },
+    ].map((c) => (
+      <motion.article
+        key={`${c.title}-${c.org}`}
+        className="card"
+        initial={{ opacity: 0, y: 16 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.4 }}
+      >
+        <div className="card-head">
+          <h3>{c.title}</h3>
+          <span className="muted">{c.date}</span>
+        </div>
+
+        <p className="muted" style={{ marginTop: 4 }}>{c.org}</p>
+
+        {c.details?.length > 0 && (
+          <ul>
+            {c.details.map((d) => (
+              <li key={d}>{d}</li>
+            ))}
+          </ul>
+        )}
+      </motion.article>
+    ))}
+  </div>
+</section>
+
+
       {/* VOLUNTEERING */}
       <section id="volunteering" className="section">
         <h2 className="section-title">Volunteering</h2>
@@ -154,6 +210,49 @@ export default function App() {
         </div>
       </section>
 
+      {/* ABOUT ME */}
+<section id="about" className="section">
+  <h2 className="section-title">About Me</h2>
+
+  <motion.div
+  initial={{ opacity: 0, y: 16 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5 }}
+  className="about-text"
+>
+  <p>
+    I am a Project Management Intern and newly-graduated Computer Scientist based in Rio de Janeiro,
+    passionate about delivery excellence and transforming customer needs into real value. Throughout
+    my internship, I have worked on strategic digital transformation projects across Latin America,
+    collaborating closely with cross-functional and international teams.
+  </p>
+
+  <p>
+    I have contributed to SmartCX implementations for major clients such as Copasa and Delsur —
+    supporting activities from requirements definition and planning to workshops, architecture
+    alignment, ticket triage, and weekly status reporting. Being on-site with the client has given
+    me a strong understanding of governance, stakeholder communication, and how to drive delivery
+    through structured methods and best practices.
+  </p>
+
+  <p>
+    Over the last year and a half, I have developed solid experience in bridging communication
+    between clients and APAC teams, ensuring clarity, alignment, and progress toward shared goals.
+    I enjoy connecting with people, solving problems, and ensuring that technology solutions are
+    successfully adopted and generate measurable impact.
+  </p>
+
+  <p>
+    Now that I have completed my Computer Science degree, I am fully prepared for the next step:
+    growing into Delivery or Product roles, while continuing to contribute to innovative solutions
+    and strengthening relationships with our clients in the region.
+  </p>
+</motion.div>
+
+</section>
+
+
       {/* CONTACT */}
       <section id="contact" className="section">
         <h2 className="section-title">Contact</h2>
@@ -176,7 +275,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <small>© {new Date().getFullYear()} Douglas Scherer — Built with React + Vite.</small>
+        <small>© {new Date().getFullYear()} Douglas Scherer</small>
       </footer>
     </div>
   );
