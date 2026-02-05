@@ -4,10 +4,24 @@ import { motion } from "framer-motion";
 import "./index.css";
 
 const experiences = [
+
+  {
+      role: "Business Consultant",
+      company: "Choice Technologies Holding - SEW",
+      date: "Jan 2026 — Present",
+      location: "Rio de Janeiro, Brazil · Hybrid",
+      points: [
+        "Manage and organize tasks, schedules, and project deadlines using Jira, Confluence, Excel, and Microsoft Project, ensuring on-time delivery and an efficient workflow.",
+        "Communicate daily in English with international clients and internal stakeholders, supporting clear alignment and collaboration across teams",
+        "Create and maintain key project documentation, including materials related to Organizational Change Management (OCM), stakeholder mapping, training, and transformation initiatives.",
+        "Support schedule updates and progress tracking in alignment with PMO processes, ensuring communication between squads and stakeholders.",
+      ],
+    },
+
   {
     role: "Project Manager Intern",
     company: "Choice Technologies Holding - SEW",
-    date: "Jul 2024 — Present",
+    date: "Jul 2024 — Dez 2025",
     location: "Rio de Janeiro, Brazil · Hybrid",
     points: [
       "Manage and organize tasks, schedules, and project deadlines using Jira, Confluence, Excel, and Microsoft Project, ensuring on-time delivery and an efficient workflow.",
@@ -31,9 +45,7 @@ const experiences = [
   },
 ];
 
-/* ====== VOLUNTEERING ====== 
-   Edite livremente os textos/links abaixo. 
-   Se quiser imagem, coloque em /public e use o campo img. */
+/* ====== VOLUNTEERING ====== */
 const volunteering = [
   {
     role: "Community Volunteer",
@@ -54,7 +66,7 @@ export default function App() {
       {/* NAV */}
   <nav className="nav">
   <div className="nav-inner">
-    <span className="brand">Douglas Scherer</span>
+    <span className="brand">Douglas Scherer Portifolio</span>
     <div className="nav-links">
       <a href="#about">About Me</a>
       <a href="#certificates">Certificates</a>
@@ -78,7 +90,7 @@ export default function App() {
               Hello! <span className="gradient">Welcome!</span>
             </h1>
             <p className="subhead">
-              I'm Douglas, Bachelor’s Degree candidate in Computer Science at UFRRJ, with strong communication in English and hands-on experience in PMO and Organizational Change Management (OCM). I provide support to international teams in timeline structuring, documentation development, and rigorous project progress monitoring, using tools such as Jira, Confluence, and Microsoft Project.
+              I’m Douglas, a Junior Business Consultant and Computer Science graduate from UFRRJ, with strong English communication and hands-on experience in project delivery, PMO, and Organizational Change Management (OCM). I support international teams by structuring timelines, developing clear documentation, and monitoring project progress using tools such as Jira, Confluence, and Microsoft Project.
             </p>
             <div className="cta-row">
               <a className="btn primary" href="#exp">View Experience</a>
@@ -126,6 +138,19 @@ export default function App() {
   <h2 className="section-title">Certifications</h2>
   <div className="list">
     {[
+
+      {
+        title: "Systems and Information Engineering",
+        org: "UFRRJ - Universidade Federal Rural do Rio de Janeiro",
+        date: "2026",
+        details: [
+          "Completion of 360 hours of advanced studies in the field of Systems and Information Engineering.",
+          "Focus on practical and theoretical skills for software development and technology management",
+          "Certification issued and recognized by an academic institution",
+          "Specialized coursework in: Web Programming (60 hours), Software Architecture (60 hours), Project Management (60 hours), Software Measurement and Quality (60 hours), Experimental Software Engineering (60 hours) and Entrepreneurship in Information Technology (60 hours)",
+        ],
+      },
+
       {
         title: "Change Management",
         org: "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul",
@@ -222,31 +247,19 @@ export default function App() {
   className="about-text"
 >
   <p>
-    I am a Project Management Intern and newly-graduated Computer Scientist based in Rio de Janeiro,
-    passionate about delivery excellence and transforming customer needs into real value. Throughout
-    my internship, I have worked on strategic digital transformation projects across Latin America,
-    collaborating closely with cross-functional and international teams.
+    I'm a Junior Business Consultant and Computer Scientist based in Rio de Janeiro, with a strong focus on project delivery, digital transformation, and client value generation. I have hands-on experience supporting strategic initiatives across Latin America, working closely with cross-functional and international teams to translate business needs into effective technology solutions.
   </p>
 
   <p>
-    I have contributed to SmartCX implementations for major clients such as Copasa and Delsur —
-    supporting activities from requirements definition and planning to workshops, architecture
-    alignment, ticket triage, and weekly status reporting. Being on-site with the client has given
-    me a strong understanding of governance, stakeholder communication, and how to drive delivery
-    through structured methods and best practices.
+    During my professional experience, I have contributed to SmartCX implementations for large-scale clients such as Copasa and Delsur, supporting the full delivery lifecycle — from requirements definition and planning to client workshops, architecture alignment, ticket triage, and executive-level status reporting. Working on-site with clients has strengthened my understanding of governance models, stakeholder management, and the importance of structured methodologies and best practices to ensure successful delivery.
   </p>
 
   <p>
-    Over the last year and a half, I have developed solid experience in bridging communication
-    between clients and APAC teams, ensuring clarity, alignment, and progress toward shared goals.
-    I enjoy connecting with people, solving problems, and ensuring that technology solutions are
-    successfully adopted and generate measurable impact.
+    Over the past year and a half, I have developed solid expertise in acting as a communication bridge between clients and (Asia-Pacific) APAC delivery teams, ensuring alignment, transparency, and continuous progress toward shared objectives. I am particularly motivated by collaborative environments, problem-solving, and ensuring that digital solutions are not only delivered, but effectively adopted and capable of generating measurable business impact.
   </p>
 
   <p>
-    Now that I have completed my Computer Science degree, I am fully prepared for the next step:
-    growing into Delivery or Product roles, while continuing to contribute to innovative solutions
-    and strengthening relationships with our clients in the region.
+    Having recently completed my degree in Computer Science, I am prepared to continue evolving into Delivery or Product-oriented roles, contributing to innovative projects while building long-term, trust-based relationships with clients across the region.
   </p>
 </motion.div>
 
@@ -255,9 +268,9 @@ export default function App() {
 
       {/* CONTACT */}
       <section id="contact" className="section">
-        <h2 className="section-title">Contact</h2>
+        <h2 className="section-title">Get in touch!</h2>
         <div className="contact">
-          <p>Email: <a href="mailto:douglasscherer@ufrrj.br">douglasscherer@ufrrj.br</a></p>
+          <p>Email: <a href="mailto:douglasscherer03@gmail.com">douglasscherer03@gmail.com</a></p>
           <p>
             LinkedIn:{" "}
             <a href="https://www.linkedin.com/in/douglassc03/" target="_blank" rel="noreferrer">
