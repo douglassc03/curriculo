@@ -6,15 +6,15 @@ import "./index.css";
 const experiences = [
 
   {
-      role: "Business Consultant",
+      role: "Junior Business Consultant",
       company: "Choice Technologies Holding - SEW",
       date: "Jan 2026 — Present",
       location: "Rio de Janeiro, Brazil · Hybrid",
       points: [
-        "Manage and organize tasks, schedules, and project deadlines using Jira, Confluence, Excel, and Microsoft Project, ensuring on-time delivery and an efficient workflow.",
-        "Communicate daily in English with international clients and internal stakeholders, supporting clear alignment and collaboration across teams",
-        "Create and maintain key project documentation, including materials related to Organizational Change Management (OCM), stakeholder mapping, training, and transformation initiatives.",
-        "Support schedule updates and progress tracking in alignment with PMO processes, ensuring communication between squads and stakeholders.",
+        "Engage in daily communication in English with global clients and internal stakeholders, fostering alignment and effective collaboration among teams.",
+        "Develop and manage essential project documentation, including content related to Organizational Change Management (OCM), stakeholder analysis, training materials, and transformation efforts.",
+        "Plan and coordinate activities, timelines, and project milestones using Jira, Confluence, Excel, and Microsoft Project, contributing to timely delivery and streamlined workflows.",
+        "Assist in schedule maintenance and performance monitoring in accordance with PMO standards, promoting integration and communication between squads and stakeholders.",
       ],
     },
 
@@ -90,7 +90,7 @@ export default function App() {
               Hello! <span className="gradient">Welcome!</span>
             </h1>
             <p className="subhead">
-              I’m Douglas, a Junior Business Consultant and Computer Science graduate from UFRRJ, with strong English communication and hands-on experience in project delivery, PMO, and Organizational Change Management (OCM). I support international teams by structuring timelines, developing clear documentation, and monitoring project progress using tools such as Jira, Confluence, and Microsoft Project.
+              I’m Douglas, a Junior Business Consultant and Computer Science graduate from UFRRJ, with advanced English communication and hands-on experience in project delivery, PMO, and Organizational Change Management (OCM). I support international teams by structuring timelines, developing clear documentation, and monitoring project progress using tools such as Jira, Confluence, and Microsoft Project.
             </p>
             <div className="cta-row">
               <a className="btn primary" href="#exp">View Experience</a>
@@ -161,6 +161,17 @@ export default function App() {
           "Readiness assessment and key performance tracking",
           "Key Users and Focal Points enablement",
           "Change communication and adoption deliverables",
+        ],
+      },
+      {
+        title: "Jira JQL",
+        org: "Jira",
+        date: "2024",
+        details: [
+          "Used JQL to filter and track issues across projects.",
+          "Created custom queries to support reports and dashboards.",
+          "Applied JQL to improve task prioritization and workflow efficiency",
+          "Developed skills in managing schedules and meeting project deadlines.",
         ],
       },
       {
@@ -247,7 +258,7 @@ export default function App() {
   className="about-text"
 >
   <p>
-    I'm a Junior Business Consultant and Computer Scientist based in Rio de Janeiro, with a strong focus on project delivery, digital transformation, and client value generation. I have hands-on experience supporting strategic initiatives across Latin America, working closely with cross-functional and international teams to translate business needs into effective technology solutions.
+    I'm a Junior Business Consultant and Computer Scientist based in Rio de Janeiro, with focus on project delivery, digital transformation, and client value generation. I have hands-on experience supporting strategic initiatives across Latin America, working closely with cross-functional and international teams to translate business needs into effective technology solutions.
   </p>
 
   <p>
