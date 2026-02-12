@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "brand": "Douglas Scherer Portfolio",
+    "about": "About Me",
+    "certificates": "Certificates",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Hello! Welcome!",
+    "description": "I’m Douglas, a Junior Business Consultant and Computer Science graduate from UFRRJ, with advanced English communication and hands-on experience in project delivery, PMO, and Organizational Change Management (OCM). I support international teams by structuring timelines, developing clear documentation, and monitoring project progress using tools such as Jira, Confluence, and Microsoft Project.",
+    "viewExperience": "View Experience",
+    "contact": "Contact"
+  },
+
+  "sections": {
+    "experience": "Experience",
+    "certifications": "Certifications",
+    "volunteering": "Volunteering",
+    "aboutMe": "About Me",
+    "contact": "Get in touch!"
+  },
+
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  
+  "experiences": [
+    {
+      "role": "Junior Business Consultant",
+      "company": "Choice Technologies Holding - SEW",
+      "date": "Jan 2026 — Present",
+      "location": "Rio de Janeiro, Brazil · Hybrid",
+      "points": [
+        "Engage in daily communication in English with global clients and internal stakeholders, fostering alignment and effective collaboration among teams.",
+        "Develop and manage essential project documentation, including content related to Organizational Change Management (OCM), stakeholder analysis, training materials, and transformation efforts.",
+        "Plan and coordinate activities, timelines, and project milestones using Jira, Confluence, Excel, and Microsoft Project, contributing to timely delivery and streamlined workflows.",
+        "Assist in schedule maintenance and performance monitoring in accordance with PMO standards, promoting integration and communication between squads and stakeholders."
+      ]
+    },
+
+    {
+    "role": "Project Manager Intern",
+    "company": "Choice Technologies Holding - SEW",
+    "date": "Jul 2024 — Dez 2025",
+    "location": "Rio de Janeiro, Brazil · Hybrid",
+    "points": [
+      "Manage and organize tasks, schedules, and project deadlines using Jira, Confluence, Excel, and Microsoft Project, ensuring on-time delivery and an efficient workflow.",
+      "Communicate daily in English with international clients and internal stakeholders, supporting clear alignment and collaboration across teams",
+      "Create and maintain key project documentation, including materials related to Organizational Change Management (OCM), stakeholder mapping, training, and transformation initiatives.",
+      "Support schedule updates and progress tracking in alignment with PMO processes, ensuring communication between squads and stakeholders."
+    ]
+
+    },
+
+    {
+    "role": "Software Developer Intern",
+    "company": "Studio VS | Exclusive Systems for Shopping Center Management",
+    "date": "Jun 2024 — Jul 2024",
+    "location": "Rio de Janeiro, Brazil · On-site",
+    "points": [
+      "Developed web applications using PHP for internal company systems.",
+      "Maintained and updated legacy systems built with Xbase (Clipper/dBase/FoxPro).",
+      "Created and optimized SQL queries to handle large datasets efficiently.",
+      "Fixed bugs and implemented enhancements in existing software systems.",
+      "Collaborated with the development team to gather requirements and perform software testing."
+    ]
+  }
+
+  ],
+
+  "volunteering": [
+  {
+    "role": "Community Volunteer",
+    "org": "Ronald McDonald House Charities",
+    "date": "Jul 2019 — Sep 2019 · 3 months",
+    "area": "Civil Rights and Social Action",
+    "points": [
+      "Helped girls undergoing cancer treatment fulfill their dream of having a quinceañera celebration.",
+      "Contributed to event logistics and community support activities."
+    ]
+  }
+  ],
+
+  "about": {
+    "title": "About Me",
+    "p1": "I'm a Junior Business Consultant and Computer Scientist based in Rio de Janeiro, with focus on project delivery, digital transformation, and client value generation. I have hands-on experience supporting strategic initiatives across Latin America, working closely with cross-functional and international teams to translate business needs into effective technology solutions.",
+    "p2": "During my professional experience, I have contributed to SmartCX implementations for large-scale clients such as Copasa and Delsur, supporting the full delivery lifecycle — from requirements definition and planning to client workshops, architecture alignment, ticket triage, and executive-level status reporting. Working on-site with clients has strengthened my understanding of governance models, stakeholder management, and the importance of structured methodologies and best practices to ensure successful delivery",
+    "p3": "Over the past year and a half, I have developed solid expertise in acting as a communication bridge between clients and (Asia-Pacific) APAC delivery teams, ensuring alignment, transparency, and continuous progress toward shared objectives. I am particularly motivated by collaborative environments, problem-solving, and ensuring that digital solutions are not only delivered, but effectively adopted and capable of generating measurable business impact.",
+    "p4": "Having recently completed my degree in Computer Science, I am prepared to continue evolving into Delivery or Product-oriented roles, contributing to innovative projects while building long-term, trust-based relationships with clients across the region."
+  },
+
+  "contact": {
+  "title": "Get in touch!",
+  "email": "Email",
+  "linkedin": "LinkedIn",
+  "github": "GitHub"
+}
+
+}
+
+
+

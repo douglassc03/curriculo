@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "brand": "Portfólio Douglas Scherer",
+    "about": "Sobre Mim",
+    "certificates": "Certificados",
+    "contact": "Contato"
+  },
+
+  "hero": {
+    "title": "Olá! Bem-vindo!",
+    "description": "Sou Douglas, Consultor de Negócios Júnior formado em Ciência da Computação pela UFRRJ. Possuo inglês avançado e experiência prática em entrega de projetos, PMO e Gestão de Mudanças Organizacionais (GMO). Presto suporte a equipes internacionais estruturando cronogramas, desenvolvendo documentações claras e monitorando o progresso de projetos com ferramentas como Jira, Confluence e Microsoft Project.",
+    "viewExperience": "Ver Experiência",
+    "contact": "Contato"
+  },
+
+  "sections": {
+    "experience": "Experiência",
+    "certifications": "Certificações",
+    "volunteering": "Voluntariado",
+    "aboutMe": "Sobre Mim",
+    "contact": "Entre em contato!"
+  },
+
+  "footer": {
+    "rights": "Todos os direitos reservados"
+  },
+
+  "experiences": [
+    {
+      "role": "Consultor de Negócios Júnior",
+      "company": "Choice Technologies Holding - SEW",
+      "date": "Jan 2026 — Presente",
+      "location": "Rio de Janeiro, Brasil · Híbrido",
+      "points": [
+        "Comunicação diária em inglês com clientes globais e partes interessadas (stakeholders) internas, promovendo o alinhamento e a colaboração eficaz entre as equipes.",
+        "Desenvolvimento e gestão de documentação essencial de projetos, incluindo conteúdos relacionados à Gestão de Mudanças Organizacionais (GMO/OCM), análise de stakeholders, materiais de treinamento e esforços de transformação.",
+        "Planejamento e coordenação de atividades, cronogramas e marcos (milestones) do projeto utilizando Jira, Confluence, Excel e Microsoft Project, contribuindo para a entrega pontual e fluxos de trabalho otimizados.",
+        "Auxílio na manutenção do cronograma e monitoramento de desempenho de acordo com os padrões de PMO, promovendo a integração e comunicação entre squads e stakeholders."
+      ]
+    },
+
+    {
+    "role": "Estagiário de Gestão de Projetos",
+    "company": "Choice Technologies Holding - SEW",
+    "date": "Jul 2024 — Dez 2025",
+    "location": "Rio de Janeiro, Brasil · Híbrido",
+    "points": [
+      "Gestão e organização de tarefas, cronogramas e prazos de projetos utilizando Jira, Confluence, Excel e Microsoft Project, garantindo a entrega no prazo e um fluxo de trabalho eficiente.",
+      "Comunicação diária em inglês com clientes internacionais e stakeholders internos, apoiando o alinhamento claro e a colaboração entre as equipes.",
+      "Criação e manutenção de documentação técnica de projetos, incluindo materiais relacionados à Gestão de Mudanças Organizacionais (GMO/OCM), mapeamento de stakeholders, treinamentos e iniciativas de transformação.",
+      "Suporte na atualização de cronogramas e acompanhamento do progresso em conformidade com os processos de PMO, garantindo a comunicação entre squads e stakeholders."
+    ]
+    },
+
+    {
+    "role": "Estagiário de Desenvolvimento de Software",
+    "company": "Studio VS | Sistemas Exclusivos para Gestão de Shopping Centers",
+    "date": "Jun 2024 — Jul 2024",
+    "location": "Rio de Janeiro, Brasil · Presencial",
+    "points": [
+      "Desenvolvimento de aplicações web utilizando PHP para sistemas internos da empresa.",
+      "Manutenção e atualização de sistemas legados desenvolvidos em Xbase (Clipper/dBase/FoxPro).",
+      "Criação e otimização de consultas SQL para manipulação eficiente de grandes conjuntos de dados.",
+      "Correção de bugs e implementação de melhorias em sistemas de software existentes.",
+      "Colaboração com a equipe de desenvolvimento para levantamento de requisitos e execução de testes de software."
+    ]
+  }
+],
+
+  "volunteering": [
+  {
+    "role": "Trabalho Voluntário",
+    "org": "Casa Ronald McDonald",
+    "date": "Jul 2019 — Set 2019 · 3 meses",
+    "area": "Direitos Civis e Ação Social",
+    "points": [
+      "Ajudei meninas em tratamento contra o câncer a realizarem o sonho da festa de 15 anos.",
+      "Contribui com logística de eventos e atividades de apoio comunitário."
+    ]
+  }
+],
+
+  "about": {
+    "title": "Sobre Mim",
+    "p1": "Sou Consultor de Negócios Júnior e Cientista da Computação baseado no Rio de Janeiro, com foco em entrega de projetos, transformação digital e geração de valor para o cliente. Possuo experiência prática no suporte a iniciativas estratégicas em toda a América Latina, trabalhando em estreita colaboração com equipes multifuncionais e internacionais para traduzir necessidades de negócio em soluções tecnológicas eficazes.",
+    "p2": "Durante minha trajetória profissional, contribuí para implementações do SmartCX em clientes de grande porte, como Copasa e Delsur, apoiando todo o ciclo de vida da entrega — desde a definição de requisitos e planejamento até workshops com clientes, alinhamento de arquitetura, triagem de tickets e relatórios de status para níveis executivos. A atuação presencial com clientes fortaleceu minha compreensão sobre modelos de governança, gestão de stakeholders e a importância de metodologias estruturadas e boas práticas para garantir o sucesso da entrega.",
+    "p3": "Ao longo do último ano e meio, desenvolvi sólida expertise atuando como ponte de comunicação entre clientes e equipes de entrega da região Ásia-Pacífico (APAC), garantindo alinhamento, transparência e progresso contínuo em direção aos objetivos compartilhados. Sou particularmente motivado por ambientes colaborativos, resolução de problemas e por garantir que as soluções digitais não sejam apenas entregues, mas efetivamente adotadas e capazes de gerar impacto de negócio mensurável.",
+    "p4": "Recentemente graduado em Ciência da Computação, estou preparado para continuar evoluindo em funções orientadas a Delivery ou Produto, contribuindo para projetos inovadores enquanto construo relacionamentos de longo prazo baseados em confiança com clientes em toda a região."
+  },
+
+  "contact": {
+  "title": "Entre em contato!",
+  "email": "Email",
+  "linkedin": "LinkedIn",
+  "github": "GitHub"
+}
+
+}
