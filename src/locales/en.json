@@ -7,7 +7,9 @@
   },
 
   "hero": {
-    "title": "Hello! Welcome!",
+      
+    "greeting": "Hello!",
+    "welcome": "Welcome!",
     "description": "I’m Douglas, a Junior Business Consultant and Computer Science graduate from UFRRJ, with advanced English communication and hands-on experience in project delivery, PMO, and Organizational Change Management (OCM). I support international teams by structuring timelines, developing clear documentation, and monitoring project progress using tools such as Jira, Confluence, and Microsoft Project.",
     "viewExperience": "View Experience",
     "contact": "Contact"

@@ -82,11 +82,8 @@ export default function App() {
       <a href="#contact">{t("nav.contact")}</a>
     </div>
 
-    {/* Language Switcher */}
-    <div className="nav-lang">
-      <button onClick={() => i18n.changeLanguage("pt")}>PT</button>
-      <button onClick={() => i18n.changeLanguage("en")}>EN</button>
-    </div>
+    <LanguageSwitcher></LanguageSwitcher>
+  
   </div>
 </nav>
 

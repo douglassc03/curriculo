@@ -7,6 +7,8 @@
   },
 
   "hero": {
+    "greeting": "Olá!",
+    "welcome": "Seja bem-vindo!",
     "title": "Olá! Bem-vindo!",
     "description": "Sou Douglas, Consultor de Negócios Júnior formado em Ciência da Computação pela UFRRJ. Possuo inglês avançado e experiência prática em entrega de projetos, PMO e Gestão de Mudanças Organizacionais (GMO). Presto suporte a equipes internacionais estruturando cronogramas, desenvolvendo documentações claras e monitorando o progresso de projetos com ferramentas como Jira, Confluence e Microsoft Project.",
     "viewExperience": "Ver Experiência",
