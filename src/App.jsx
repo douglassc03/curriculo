@@ -68,6 +68,7 @@ export default function App() {
   const { t, i18n } = useTranslation();
   const experiences = t("experiences", { returnObjects: true });
   const volunteering = t("volunteering", { returnObjects: true });
+  const certifications = t("certifications.items", { returnObjects: true });
   
   return (
     <div>
@@ -173,27 +174,12 @@ export default function App() {
 
       {/* CERTIFICATES */}
 <section id="certificates" className="section">
-  <h2 className="section-title">
-    {t("sections.certifications")}
-  </h2>
+  <h2 className="section-title">{t("certifications.title")}</h2>
 
   <div className="list">
-    {[
-      {
-        title: "Systems and Information Engineering",
-        org: "UFRRJ - Universidade Federal Rural do Rio de Janeiro",
-        date: "2026",
-        details: [
-          "Completion of 360 hours of advanced studies in the field of Systems and Information Engineering.",
-          "Focus on practical and theoretical skills for software development and technology management",
-          "Certification issued and recognized by an academic institution",
-          "Specialized coursework in: Web Programming (60 hours), Software Architecture (60 hours), Project Management (60 hours), Software Measurement and Quality (60 hours), Experimental Software Engineering (60 hours) and Entrepreneurship in Information Technology (60 hours)"
-        ],
-      },
-      ...
-    []].map((c) => (
+    {certifications.map((c, index) => (
       <motion.article
-        key={`${c.title}-${c.org}`}
+        key={index}
         className="card"
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -209,13 +195,11 @@ export default function App() {
           {c.org}
         </p>
 
-        {c.details?.length > 0 && (
-          <ul>
-            {c.details.map((d) => (
-              <li key={d}>{d}</li>
-            ))}
-          </ul>
-        )}
+        <ul>
+          {c.details.map((d, i) => (
+            <li key={i}>{d}</li>
+          ))}
+        </ul>
       </motion.article>
     ))}
   </div>

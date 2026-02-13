@@ -30,7 +30,7 @@
   "experiences": [
     {
       "role": "Consultor de Negócios Júnior",
-      "company": "Choice Technologies Holding - SEW",
+      "company": "Choice Energy Business Unit - SEW",
       "date": "Jan 2026 — Presente",
       "location": "Rio de Janeiro, Brasil · Híbrido",
       "points": [
@@ -42,8 +42,8 @@
     },
 
     {
-    "role": "Estagiário de Gestão de Projetos",
-    "company": "Choice Technologies Holding - SEW",
+    "role": "Estagiário de Gestão de Projetos de Software",
+    "company": "Choice Energy Business Unit - SEW",
     "date": "Jul 2024 — Dez 2025",
     "location": "Rio de Janeiro, Brasil · Híbrido",
     "points": [
@@ -76,17 +76,17 @@
     "date": "Jul 2019 — Set 2019 · 3 meses",
     "area": "Direitos Civis e Ação Social",
     "points": [
-      "Ajudei meninas em tratamento contra o câncer a realizarem o sonho da festa de 15 anos.",
-      "Contribui com logística de eventos e atividades de apoio comunitário."
+      "Contribuição com logística de eventos e atividades de apoio comunitário.",
+      "Ajudei meninas em tratamento contra o câncer a realizarem o sonho da festa de 15 anos."
     ]
   }
 ],
 
   "about": {
     "title": "Sobre Mim",
-    "p1": "Sou Consultor de Negócios Júnior e Cientista da Computação baseado no Rio de Janeiro, com foco em entrega de projetos, transformação digital e geração de valor para o cliente. Possuo experiência prática no suporte a iniciativas estratégicas em toda a América Latina, trabalhando em estreita colaboração com equipes multifuncionais e internacionais para traduzir necessidades de negócio em soluções tecnológicas eficazes.",
-    "p2": "Durante minha trajetória profissional, contribuí para implementações do SmartCX em clientes de grande porte, como Copasa e Delsur, apoiando todo o ciclo de vida da entrega — desde a definição de requisitos e planejamento até workshops com clientes, alinhamento de arquitetura, triagem de tickets e relatórios de status para níveis executivos. A atuação presencial com clientes fortaleceu minha compreensão sobre modelos de governança, gestão de stakeholders e a importância de metodologias estruturadas e boas práticas para garantir o sucesso da entrega.",
-    "p3": "Ao longo do último ano e meio, desenvolvi sólida expertise atuando como ponte de comunicação entre clientes e equipes de entrega da região Ásia-Pacífico (APAC), garantindo alinhamento, transparência e progresso contínuo em direção aos objetivos compartilhados. Sou particularmente motivado por ambientes colaborativos, resolução de problemas e por garantir que as soluções digitais não sejam apenas entregues, mas efetivamente adotadas e capazes de gerar impacto de negócio mensurável.",
+    "p1": "Sou formado em Ciência da Computação pela Universidade Federal Rural do Rio de Janeiro (UFRRJ), com foco em entrega de projetos, transformação digital e geração de valor para o cliente. Possuo experiência prática no suporte a iniciativas estratégicas em toda a América Latina, trabalhando em estreita colaboração com equipes multifuncionais e internacionais para traduzir necessidades de negócio em soluções tecnológicas eficazes.",
+    "p2": "Durante minha trajetória profissional, contribuí com implementações de produtos para utilities para clientes de grande porte, como Copasa, Delsur e Gasmig, apoiando todo o ciclo de vida da entrega — desde a definição de requisitos e planejamento até workshops com clientes, alinhamento de arquitetura, triagem de tickets e relatórios de status para níveis executivos. A atuação presencial com clientes fortaleceu minha compreensão sobre modelos de governança, gestão de stakeholders e a importância de metodologias estruturadas e boas práticas para garantir o sucesso da entrega.",
+    "p3": "Ao longo do último ano e meio, desenvolvi experiência atuando como ponte de comunicação entre clientes e equipes de entrega da região Ásia-Pacífico (APAC), garantindo alinhamento, transparência e progresso contínuo em direção aos objetivos compartilhados. Sou particularmente motivado por ambientes colaborativos, resolução de problemas e por garantir que as soluções digitais não sejam apenas entregues, mas efetivamente adotadas e capazes de gerar impacto de negócio mensurável.",
     "p4": "Recentemente graduado em Ciência da Computação, estou preparado para continuar evoluindo em funções orientadas a Delivery ou Produto, contribuindo para projetos inovadores enquanto construo relacionamentos de longo prazo baseados em confiança com clientes em toda a região."
   },
 
@@ -95,6 +95,61 @@
   "email": "Email",
   "linkedin": "LinkedIn",
   "github": "GitHub"
-}
+},
+
+
+  "certifications": {
+    "title": "Certificações",
+    "items": [
+      {
+        "title": "Engenharia de Sistemas e Informação",
+        "org": "UFRRJ - Universidade Federal Rural do Rio de Janeiro",
+        "date": "2026",
+        "details": [
+          "Conclusão de 360 horas de estudos avançados na área.",
+          "Foco em desenvolvimento de software e gestão de tecnologia.",
+          "Certificação emitida por instituição acadêmica reconhecida.",
+          "Disciplinas: Programação Web, Arquitetura de Software, Gestão de Projetos, Métricas e Qualidade, Engenharia Experimental e Empreendedorismo em TI."
+        ]
+      },
+
+
+      {
+    "title": "Gestão de Mudanças (Change Management)",
+    "org": "PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul",
+    "date": "2025",
+    "details": [
+      "Proposição de Valor e aplicação de ferramentas VPD",
+      "Engajamento de stakeholders e análise de mudança de comportamento",
+      "Avaliação de prontidão (readiness assessment) e monitoramento de performance",
+      "Comunicação de mudanças e entregáveis voltados à adoção"
+    ]
+  },
+  {
+    "title": "Jira JQL",
+    "org": "Jira",
+    "date": "2024",
+    "details": [
+      "Utilização de JQL para filtrar e rastrear chamados entre projetos.",
+      "Criação de consultas personalizadas para suporte a relatórios e dashboards.",
+      "Aplicação de JQL para melhoria da priorização de tarefas e eficiência do fluxo de trabalho.",
+      "Desenvolvimento de habilidades em gestão de cronogramas e cumprimento de prazos."
+    ]
+  },
+  {
+    "title": "SAP Service Cloud",
+    "org": "SAP",
+    "date": "2024",
+    "details": [
+      "Gestão de tickets de serviço e monitoramento de SLA",
+      "Análise de dados de atendimento ao cliente e relatórios",
+      "Otimização de workflow para operações de suporte"
+    ]
+  }
+]
+    
+  }
+
+
 
 }
